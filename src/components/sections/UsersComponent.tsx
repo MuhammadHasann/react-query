@@ -33,6 +33,7 @@ const UsersComponent = () => {
 
   return (
     <div className="flex flex-col gap-y-4 w-full">
+      <h1 className="mb-1 text-sm font-semibold text-foreground">Users Data</h1>
       {currentUsers.map((item, index) => (
         <div key={index} className="flex flex-col gap-y-0.5 w-full">
           <span className="text-sm font-medium text-foreground">

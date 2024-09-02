@@ -6,9 +6,9 @@ import BadgeCoins from "../fragments/badge/BadgeCoins";
 
 const NavbarLanding = () => {
   return (
-    <div>
+    <div className="flex items-center gap-x-3">
       <Link href="/">home</Link>
-      <Link href="/testing">testing</Link>
+      <Link href="/test">testing</Link>
       <BadgeCoins />
     </div>
   );

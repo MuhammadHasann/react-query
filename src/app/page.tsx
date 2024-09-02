@@ -5,6 +5,7 @@ const HomePage = () => {
   return (
     <section className="flex flex-col gap-y-6 py-10 px-16 w-full">
       <FilterComponent />
+      <hr />
       <UsersComponent />
     </section>
   );
